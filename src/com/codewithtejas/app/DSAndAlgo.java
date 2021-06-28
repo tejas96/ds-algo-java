@@ -3,7 +3,9 @@ package com.codewithtejas.app;
 import java.util.Arrays;
 
 import com.codewithtejas.interviewprep.ArrayFindDuplicates;
+import com.codewithtejas.interviewprep.DoubleLinkedList;
 import com.codewithtejas.interviewprep.GCD;
+import com.codewithtejas.interviewprep.KFrequent;
 import com.codewithtejas.interviewprep.MaxAreaInHisotgram;
 import com.codewithtejas.interviewprep.NextGreterElementDistance;
 import com.codewithtejas.interviewprep.StringRotationsProgram;
@@ -36,10 +38,19 @@ public class DSAndAlgo {
 //		System.out.println(StringRotationsProgram.isCyclic("ABCDD", "CDAB"));
 //		System.out.println(Arrays.toString(ReverseArray.reverse(new int[] {1,2,3,4,5})));
 //		System.out.println(GCD.findGCD(100, 100));
-		TrieAlgoImpl trie = new TrieAlgoImpl();
-		trie.insert("aba");
-		trie.insert("abc");
-		trie.show();
+//		TrieAlgoImpl trie = new TrieAlgoImpl();
+//		trie.insert("aba");
+//		trie.insert("abc");
+//		trie.show();
+//		
+//		DoubleLinkedList ddl = new DoubleLinkedList();
+//		ddl.push(1);
+//		ddl.push(2);
+//		ddl.push(3);
+//		ddl.push(4);
+//		ddl.printDDL();
+		
+		KFrequent.findKfrequent(new int[] {1, 2,3,1,2,4,4,4,6,8,9,3,2}, 2);
 	}
 
 }
