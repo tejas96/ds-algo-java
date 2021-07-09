@@ -3,6 +3,7 @@ package com.codewithtejas.app;
 import java.util.Arrays;
 
 import com.codewithtejas.interviewprep.ArrayFindDuplicates;
+import com.codewithtejas.interviewprep.BinneryTree;
 import com.codewithtejas.interviewprep.DoubleLinkedList;
 import com.codewithtejas.interviewprep.GCD;
 import com.codewithtejas.interviewprep.KFrequent;
@@ -52,14 +53,17 @@ public class DSAndAlgo {
 //		ddl.printDDL();
 		
 //		KFrequent.findKfrequent(new int[] {1, 2,3,1,2,4,4,4,6,8,9,3,2}, 2);
+//		
+//		LRU cache = new LRU(3);
+//		cache.refer(1);
+//		cache.refer(2);
+//		cache.refer(3);
+//		cache.refer(4);
+//		cache.refer(2);
+//		cache.display();
 		
-		LRU cache = new LRU(3);
-		cache.refer(1);
-		cache.refer(2);
-		cache.refer(3);
-		cache.refer(4);
-		cache.refer(2);
-		cache.display();
+		BinneryTree bt = new BinneryTree();
+		bt.levelTrav(bt.getRoot());
 	}
 
 }
