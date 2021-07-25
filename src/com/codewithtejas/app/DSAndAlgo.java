@@ -4,17 +4,21 @@ import java.util.Arrays;
 
 import com.codewithtejas.interviewprep.ArrayFindDuplicates;
 import com.codewithtejas.interviewprep.BinneryTree;
+import com.codewithtejas.interviewprep.CountDigitsInNumber;
 import com.codewithtejas.interviewprep.DoubleLinkedList;
 import com.codewithtejas.interviewprep.GCD;
 import com.codewithtejas.interviewprep.KFrequent;
 import com.codewithtejas.interviewprep.LRU;
 import com.codewithtejas.interviewprep.MaxAreaInHisotgram;
 import com.codewithtejas.interviewprep.NextGreterElementDistance;
+import com.codewithtejas.interviewprep.PalindromNumber;
 import com.codewithtejas.interviewprep.StringRotationsProgram;
 import com.codewithtejas.interviewprep.TrieAlgoImpl;
+import com.codewithtejas.model.Node;
 import com.codewithtejas.interviewprep.PascalTriangle;
 import com.codewithtejas.interviewprep.PhoneBookTrieAlgo;
 import com.codewithtejas.interviewprep.ReverseArray;
+
 
 
 public class DSAndAlgo {
@@ -62,8 +66,23 @@ public class DSAndAlgo {
 //		cache.refer(2);
 //		cache.display();
 		
-		BinneryTree bt = new BinneryTree();
-		bt.levelTrav(bt.getRoot());
+//		BinneryTree bt = new BinneryTree();
+//		bt.levelTrav(bt.getRoot());
+		
+//		Node bst = new Node(10);
+//		bst.left = new Node(6);
+//		bst.right = new Node(20);
+//		bst.left.left = new Node(5);
+//		bst.left.right = new Node(7);
+//		
+//		System.out.println(BinneryTree.isBst(bst));
+//		System.out.println(BinneryTree.isBst2(bst, Integer.MIN_VALUE, Integer.MAX_VALUE));
+//		System.out.println(BinneryTree.findkSmallestElementInBst(bst, 1));
+		
+//		System.out.println(CountDigitsInNumber.method2(1));
+		
+		System.out.println(PalindromNumber.isNumberPalindrome(122));
+		
 	}
 
 }
